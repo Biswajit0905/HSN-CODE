@@ -1,7 +1,7 @@
 {
   "name": "fetch-hsn-json",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- @format -->",
   "type": "module",
   "main": "app.js",
   "scripts": {
@@ -13,6 +13,11 @@
   "dependencies": {
     "axios": "^0.20.0",
     "cheerio": "^1.0.0-rc.3",
+    "express": "^5.1.0",
     "node-html-parser": "^1.2.21"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": []
 }
