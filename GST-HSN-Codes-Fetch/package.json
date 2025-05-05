@@ -2,7 +2,6 @@
   "name": "fetch-hsn-json",
   "version": "1.0.0",
   "description": "<!-- @format -->",
-  "type": "module",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,6 +12,7 @@
   "dependencies": {
     "axios": "^0.20.0",
     "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "node-html-parser": "^1.2.21"
   },
